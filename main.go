@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/mohashari/learn-go-fundamental/calculation"
 )
 
 func main() {
+	fmt.Println("learn go fundamental")
 
-	numberMulti := calculation.Multiplay(2, 3)
-	fmt.Println(numberMulti)
+	var namaVariable string = "ini variable mengguanakan var"
+	angkaVariable := 34
 
-	fmt.Println("hello golang")
+	fmt.Println(namaVariable)
+	fmt.Println(angkaVariable)
 }
