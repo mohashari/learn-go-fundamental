@@ -5,11 +5,13 @@ import (
 )
 
 func main() {
-	fmt.Println("learn go fundamental")
+	age := 10
 
-	var namaVariable string = "ini variable mengguanakan var"
-	angkaVariable := 34
-
-	fmt.Println(namaVariable)
-	fmt.Println(angkaVariable)
+	if age > 10 {
+		fmt.Println("umur ku di atas 10 ")
+	} else if age > 20 {
+		fmt.Println("umur ku di atas 20 ")
+	} else {
+		fmt.Println("umur ku di bawah 10 ")
+	}
 }
