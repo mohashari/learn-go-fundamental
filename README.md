@@ -94,3 +94,29 @@ func main() {
 }
 
 ```
+
+## Learn Slice
+Slice di go merupakan array yang ukuranya bisa dinamis atau ukurannya tergantung data yang ada di dalamnya 
+
+cara mendefinisikan slice 
+**var nama-slice []type-data**
+
+```golang
+//cara pertama
+	var gamingConsole []string
+	gamingConsole = append(gamingConsole, "PS1")
+	fmt.Println(gamingConsole)
+
+	//cara kedua
+	gamingConsole2 := []string{"PS2"}
+	fmt.Println(gamingConsole2)
+
+	//cara ketiga
+	gamingConsole3 := make([]string, 0)
+	gamingConsole3 = append(gamingConsole3, "Nitendo", "PSP")
+	fmt.Println(gamingConsole3)
+
+	for _, game := range gamingConsole3 {
+		fmt.Println("Game Console: ", game)
+	}
+```
