@@ -23,7 +23,7 @@ func main() {
 }
 
 ```
-## Lean if condition 
+## Learn if condition 
 if condition di golang `if kondisi { terminalisasi }` contoh code
 ```golang 
 package main
